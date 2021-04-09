@@ -1,0 +1,48 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.theme-cyan .sidebar-nav .metismenu ul a:hover::before {
+    content: none;
+}
+
+.fancy-checkbox input[type="checkbox"] + span::before {
+    border-color: rgba(0, 0, 0, 0.2);
+
+}
+
+#left-sidebar {
+    border: 0;
+    border-left: 1px solid rgb(225, 232, 237);
+}
+
+.select2-container .select2-selection--multiple {
+    width: 200px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    width: 200px;
+}
+
+li.divider {
+    width: 100%;
+    border-top: 1px solid #e1e8ed;
+    margin-bottom: 20px;
+}
+
+.modal-content .table.table-custom thead th, .modal-content .table tr td, .modal-content .table tr th {
+    border-color: transparent;
+    background: #f1f4f6;
+}
+
+.covenant-modal-form label, .covenant-modal-form .select2 {
+    display: block;
+}
+
+.select2-container--default .select2-selection--single, .select2-container .select2-selection--multiple {
+    width: auto!important;
+    height: 40px!important;
+}
+.select2-container--default .select2-search--inline .select2-search__field{
+    text-align: right;
+}
